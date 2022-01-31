@@ -8,32 +8,21 @@
     <link rel="stylesheet"  type="text/css" href="css/style.css">
 </head>
 <body>
-
     <header class="header">
         <div class="header-block">
-          <a href=#0><img src="svg/noemi-logo.svg" class="logo" alt="Логотип">
-          </a>
+          <a href=#0><img src="svg/noemi-logo.svg" class="logo" alt="Логотип"></a>
           <nav class="menu">
             <ul class="menu-list">
-              <li class="menu-list-item">
-            <a href=#0 class="link-header">главная</a>
-           </li>
-              <li class="menu-list-item">
-            <a href=#0 class="link-header">посты</a> 
-           </li>
-              <li class="menu-list-item">
-            <a href=#0 class="link-header">статьи</a>
-           </li>
-              <li class="menu-list-item">
-            <a href=#0 class="link-header">теги</a>
-           </li>
-              <li class="menu-list-item">
-            <a href=#0 class="link-header">темы</a>
-           </li>
-              <li class="menu-list-item">
-            <a href=#0 class="link-header">контакты</a>
-           </li>
+              <li class="menu-list-item"><a href=#0 class="link-header">главная</a></li>
+              <li class="menu-list-item"><a href=#0 class="link-header">посты</a></li>
+              <li class="menu-list-item"><a href=#0 class="link-header">статьи</a></li>
+              <li class="menu-list-item"><a href=#0 class="link-header">теги</a></li>
+              <li class="menu-list-item"><a href=#0 class="link-header">темы</a></li>
+              <li class="menu-list-item"><a href=#0 class="link-header">контакты</a></li>
             </ul>
+          </nav>
+          <nav class="menu_burger">
+              <span></span>
           </nav>
         </div>
         <div class="name-header">
@@ -51,8 +40,8 @@
                             <li class="blog-link"><a href=#0 class="link-themes">lifestyle</a></li>
                             <li class="blog-link"><a href=#0 class="link-themes">interoir</a></li>
                         </ul>
-                        <h3 class="name-trend-block">сейчас в тренде: сад на подоконнике</h3>
-                    </div>
+                        <h2 class="name-trend-block">сейчас в тренде: сад на подоконнике </h2>
+                    </div>  
                 </article>
                 <article class="trend-block">
                     <img src="images/trend2.jpg" alt="Головки сыра различных сортов" class="trend-foto">
@@ -60,7 +49,7 @@
                         <ul class="name-themes">
                             <li class="blog-link"><a href=#0 class="link-themes">food</a></li>
                         </ul>
-                        <h3 class="name-trend-block">сыры на красивых картинках из интернета: какие они на вкус?</h3>
+                        <h2 class="name-trend-block">сыры на красивых картинках из интернета: какие они на вкус?</h2>
                     </div>
                 </article>
                 <article class="trend-block">
@@ -70,7 +59,7 @@
                             <li class="blog-link"><a href=#0 class="link-themes">lifestyle</a></li>
                             <li class="blog-link"><a href=#0 class="link-themes">travel</a></li>
                         </ul>
-                        <h3 class="name-trend-block">собираемся в первый поход в горы</h3>
+                        <h2 class="name-trend-block">собираемся в первый поход в горы</h2>
                     </div>
                 </article>
                 <article class="trend-block">
@@ -80,7 +69,7 @@
                             <li class="blog-link"><a href=#0 class="link-themes">food</a></li>
                             <li class="blog-link"><a href=#0 class="link-themes">health</a></li>
                         </ul>
-                        <h3 class="name-trend-block">сейчас в тренде: сколько витамина с в лимонах</h3>
+                        <h2 class="name-trend-block">сейчас в тренде: сколько витамина с в лимонах</h2>
                     </div>
                 </article>
             </div>
@@ -270,7 +259,15 @@
             <h3 class="name-block">наши изделия</h3>
             <div class="product-block">
                 <article class="product-card">
-                    <img src="images/shop-item-desk1.jpg" alt="Подушка с принтом" class="img_shop">
+                    <picture class="img_shop">
+                        <source
+                            media="(max-width: 640px)"
+                            srcset="images/shop-item-mobile1.jpg">
+                        <source
+                            media="(max-width:1200px)"
+                            srcset="images/shop-item-tablet1.jpg">
+                        <img src="images/shop-item-desk1.jpg" alt="Подушка с принтом">
+                    </picture>
                     <div class="shop-option">
                         <h2><a href=#0 class="link-news">подушка на диван</a></h2>
                         <p class="description-product">Набор из двух подушек с модными принтами. Видео о создании <a href="#0" class="link_shop">здесь</a>.</p>
@@ -284,7 +281,15 @@
                     </div>
                 </article>
                 <article class="product-card">
-                    <img src="images/shop-item-desk2.jpg" alt="Рукодельяная яркая кукла в виде зайчика" class="img_shop" >
+                    <picture class="img_shop">
+                        <source
+                            media="(max-width: 640px)"
+                            srcset="images/shop-item-mobile2.jpg">
+                        <source
+                            media="(max-width:1200px)"
+                            srcset="images/shop-item-tablet2.jpg">
+                        <img src="images/shop-item-desk2.jpg" alt="Рукодельяная яркая кукла в виде зайчика">
+                    </picture>
                     <div class="shop-option">
                         <h2><a href=#0 class="link-news">кукла «зайчик</a></h2>
                         <p class="description-product">Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена <a href="#0" class="link_shop">весенняя серия постов</a> в блоге и несколько подкастов.</p>
@@ -297,7 +302,15 @@
                     </div>
                 </article>
                 <article class="product-card">
-                    <img src="images/shop-item-desk3.jpg" alt="Деревянная шестиугольная рамка" class="img_shop">
+                    <picture class="img_shop">
+                        <source
+                            media="(max-width: 640px)"
+                            srcset="images/shop-item-mobile3.jpg">
+                        <source
+                            media="(max-width:1200px)"
+                            srcset="images/shop-item-tablet3.jpg">
+                        <img src="images/shop-item-desk3.jpg" alt="Деревянная шестиугольная рамка">
+                    </picture>
                     <div class="shop-option">
                         <h2><a href=#0 class="link-news">шестиугольная рамка</a></h2>
                         <p class="description-product">Необычная рамка для украшения дома из видео <a href="#0" class="link_shop">«Как сделать рамку из подручных средств за 30 минут»</a></p>
@@ -309,7 +322,7 @@
                             <button class="shopping"><a href=#0 class="shopping_name">в магазин</a></button>
                         </div>
                     </div>
-                </article> 
+                </article>  
             </div>  
         </section>
     </div>
