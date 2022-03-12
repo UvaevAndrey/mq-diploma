@@ -8,6 +8,44 @@
     <link rel="stylesheet"  type="text/css" href="css/style.css">
 </head>
 <body>
+    <div class="_hidden">
+        <div class="popup" >
+            
+            <div class="popup-content">
+                <span class="name-popup">ваш фитбек</span>
+                <form class="popup-form">
+                    <button class="closed_popup" type="button"></button>
+                    <label >
+                        <span class="popup-question">Как часто вы заходите на сайт?</span>
+                        <span class="definition">Выпадающий список выбора вариантов</span>
+                        <select type="text" name="popup-option" list="lst" placeholder="Почти каждый день" class="popup-option">
+                            <option value="day" selected>Почти каждый день</option>
+                            <option value="week">Пару раз в неделю</option>
+                            <option value="month">Пару раз в месяц</option>
+                            <option value="rarely">Редко</option>
+                        </select>
+                    </label>
+                    <label>
+                        <span class="popup-email">Вы подписаны на e-mail рассылку?</span>
+                        <p>
+                            <input type="radio" name="choice" value="yes" class="choice-mail">Да
+                            <input type="radio" name="choice" value="no" class="choice-mail">Нет
+                        </p>
+                    </label>
+                    <label>
+                        <span class="popup-info-content">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
+                        <span class="definition">Поле ввода пожелания пользователя</span>
+                        <textarea name="content" cols="1000" rows="30" class="info-content" required>Может больше рецептов?</textarea>
+                    </label>
+                    <label>
+                        <span class="definition">Кнопка отправки формы</span>
+                        <button type="submit" class="send_pupop">Отправить</button>
+                    </label>
+                </form>
+                
+            </div>
+        </div>
+    </div>
     <header class="header">
         <div class="header-block">
           <a href=#0><img src="svg/noemi-logo.svg" class="logo" alt="Логотип"></a>
@@ -21,9 +59,11 @@
               <li class="menu-list-item"><a href=#0 class="link-header">контакты</a></li>
             </ul>
           </nav>
-          <nav class="menu_burger">
-              <span></span>
-          </nav>
+          <div class="burger">
+            <nav class="menu_burger">
+                <span></span>
+            </nav>
+          </div>
         </div>
         <div class="name-header">
             <h1 class="name-head">блог о творчестве, спорте, и образе жизни</h1>
@@ -31,10 +71,9 @@
     </header>  
     <div class="central-panel">
         <section class="trend">
-            <h3 class="name-block">сейчас в тренде</h3>
+            <h2 class="name-block">сейчас в тренде</h2>
             <div class="trend-blocks">
-                <article class="trend-block">
-                    <img src="images/trend1.jpg" alt="Рассада в горшке" class="trend-foto">
+                <article class="trend-block trend1">
                     <div class="trend-description">
                         <ul class="name-themes">
                             <li class="blog-link"><a href=#0 class="link-themes">lifestyle</a></li>
@@ -43,33 +82,30 @@
                         <h3 class="name-trend-block">сейчас в тренде: сад на подоконнике </h3>
                     </div>  
                 </article>
-                <article class="trend-block">
-                    <img src="images/trend2.jpg" alt="Головки сыра различных сортов" class="trend-foto">
+                <article class="trend-block trend2">
                     <div class="trend-description">
                         <ul class="name-themes">
                             <li class="blog-link"><a href=#0 class="link-themes">food</a></li>
                         </ul>
-                        <h2 class="name-trend-block">сыры на красивых картинках из интернета: какие они на вкус?</h2>
+                        <h3 class="name-trend-block">сыры на красивых картинках из интернета: какие они на вкус?</h3>
                     </div>
                 </article>
-                <article class="trend-block">
-                    <img src="images/trend3.jpg" alt="Пейзаж горы" class="trend-foto">
+                <article class="trend-block trend3">
                     <div class="trend-description">
                         <ul class="name-themes">
                             <li class="blog-link"><a href=#0 class="link-themes">lifestyle</a></li>
                             <li class="blog-link"><a href=#0 class="link-themes">travel</a></li>
                         </ul>
-                        <h2 class="name-trend-block">собираемся в первый поход в горы</h2>
+                        <h3 class="name-trend-block">собираемся в первый поход в горы</h3>
                     </div>
                 </article>
-                <article class="trend-block">
-                    <img src="images/trend4.jpg" alt="Ящик лимонов" class="trend-foto">
+                <article class="trend-block trend4">
                     <div class="trend-description">
                         <ul class="name-themes">
                             <li class="blog-link"><a href=#0 class="link-themes">food</a></li>
                             <li class="blog-link"><a href=#0 class="link-themes">health</a></li>
                         </ul>
-                        <h2 class="name-trend-block">сейчас в тренде: сколько витамина с в лимонах</h2>
+                        <h3 class="name-trend-block">сейчас в тренде: сколько витамина с в лимонах</h3>
                     </div>
                 </article>
             </div>
@@ -256,7 +292,7 @@
             </aside>
         </div>
         <section class="products">
-            <h3 class="name-block">наши изделия</h3>
+            <h2 class="name-block">наши изделия</h2>
             <div class="product-block">
                 <article class="product-card">
                     <picture class="img_shop">
@@ -269,7 +305,7 @@
                         <img src="images/shop-item-desk1.jpg" alt="Подушка с принтом">
                     </picture>
                     <div class="shop-option">
-                        <h2><a href=#0 class="link-news">подушка на диван</a></h2>
+                        <h3><a href=#0 class="link-news">подушка на диван</a></h3>
                         <p class="description-product">Набор из двух подушек с модными принтами. Видео о создании <a href="#0" class="link_shop">здесь</a>.</p>
                         <div class="shop">
                             <div class="price">
@@ -291,8 +327,8 @@
                         <img src="images/shop-item-desk2.jpg" alt="Рукодельяная яркая кукла в виде зайчика">
                     </picture>
                     <div class="shop-option">
-                        <h2><a href=#0 class="link-news">кукла «зайчик</a></h2>
-                        <p class="description-product">Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена <a href="#0" class="link_shop">весенняя серия постов</a> в блоге и несколько подкастов.</p>
+                        <h3><a href=#0 class="link-news">кукла «зайчик</a></h3>
+                        <p class="description-product">Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена  <a href="#0" class="link_shop">весенняя серия постов</a> в блоге и несколько подкастов.</p>
                         <div class="shop">
                             <div class="price">
                                 <span class="new_price">3500 Р</span>
@@ -312,8 +348,8 @@
                         <img src="images/shop-item-desk3.jpg" alt="Деревянная шестиугольная рамка">
                     </picture>
                     <div class="shop-option">
-                        <h2><a href=#0 class="link-news">шестиугольная рамка</a></h2>
-                        <p class="description-product">Необычная рамка для украшения дома из видео <a href="#0" class="link_shop">«Как сделать рамку из подручных средств за 30 минут»</a></p>
+                        <h3><a href=#0 class="link-news">шестиугольная рамка</a></h3>
+                        <p class="description-product">Необычная рамка для украшения дома из видео  <a href="#0" class="link_shop">«Как сделать рамку из подручных средств за 30 минут»</a></p>
                         <div class="shop">
                             <div class="price">
                                 <span class="old_price">500 P</span>
