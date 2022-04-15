@@ -426,8 +426,8 @@ form p {
 .heading::after {
   content: "";
   display: block;
-  margin: 10px auto 23px auto;
   width: 65px;
+  margin: 10px auto 23px auto;
   height: 3px;
   background-color: #b59f5b;
 }
@@ -441,7 +441,6 @@ form p {
 .post-img {
   display:flex;
   background-color: white;
-  width: 70px;
   margin-right: 20px;
 }
 .post-date {
@@ -466,7 +465,7 @@ form p {
   width: 100%;
 }
 .form input {
-  width: 82.22%;
+  width: 100%;
   height: 48px;
   padding-left: 18px;
   padding-right: 18px;
@@ -477,7 +476,7 @@ form p {
   position: absolute; 
   top: 0;
   right: 0px;
-  width: 17.78%;
+  width: 48px;
   height: 48px;
   background: #b59f5b;
   cursor: pointer;
@@ -859,6 +858,7 @@ form p {
 }
 .trend-description {
   padding: 40px 34px 35px 34px;
+  word-wrap: break-word;
 }
 .name-trend-block {
   font-size: 1.25rem;
@@ -967,7 +967,7 @@ form p {
   
   .side-panel {
     margin-left: 35px;
-    width: 270px;
+    width: 100%;
   }
   
   .heading {
@@ -981,7 +981,7 @@ form p {
   }
   .tags-group {
     margin-top: 60px;
-    width: 270px;
+    width: 100%;
   }
   .tag {
     font-size: 0.75rem;
