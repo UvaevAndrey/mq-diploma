@@ -1,399 +1,174 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MQ-DIPLOM</title>
+    <meta name="Keyword " content="warehouse, save, data, security, storage, area">
+    <meta name="Description  " content="Data Warehouse is a data storage area that has been tested for security, so you can store your data here safely but not be afraid of being stolen by others.">
+    <title>Warehouse - Save your data storage here.</title>
     <link rel="stylesheet"  type="text/css" href="css/style.css">
+    <link rel="Shortcut icon" href="svg/Logo.svg" type="image/x-icon">
 </head>
 <body>
-    <div class="_hidden">
-        <div class="popup" >
-            <div class="popup-content">
-                <h3 class="name-popup">ваш фитбек</h3>
-                <form class="popup-form">
-                    <button class="closed_popup" type="button"></button>
-                    <label >
-                        <span class="popup-question">Как часто вы заходите на сайт?</span>
-                        <span class="definition">Выпадающий список выбора вариантов</span>
-                        <select type="text" name="popup-option" list="lst" placeholder="Почти каждый день" class="popup-option">
-                            <option value="day" selected>Почти каждый день</option>
-                            <option value="week">Пару раз в неделю</option>
-                            <option value="month">Пару раз в месяц</option>
-                            <option value="rarely">Редко</option>
-                        </select>
-                    </label>
-                    <label>
-                        <span class="popup-email">Вы подписаны на e-mail рассылку?</span>
-                        <p>
-                            <input type="radio" name="choice" value="yes" class="choice-mail">Да
-                            <input type="radio" name="choice" value="no" class="choice-mail">Нет
-                        </p>
-                    </label>
-                    <label>
-                        <span class="popup-info-content">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
-                        <span class="definition">Поле ввода пожелания пользователя</span>
-                        <textarea name="content" cols="1000" rows="30" class="info-content" required>Может больше рецептов?</textarea>
-                    </label>
-                    <label>
-                        <span class="definition">Кнопка отправки формы</span>
-                        <button type="submit" class="send_pupop">Отправить</button>
-                    </label>
-                </form>
-                
-            </div>
-        </div>
-    </div>
     <header class="header">
-        <div class="header-block">
-          <a href=#0><img src="svg/noemi-logo.svg" class="logo" alt="Логотип"></a>
-          <nav class="menu">
+        <img src="svg/Logo.svg" alt="Логотип" class="logo1">
+        <input id="menu__toggle" type="checkbox" class="input">
+        <label class="menu_burger" for="menu__toggle">
+            <span></span>
+        </label>
+        <nav class="menu"> 
             <ul class="menu-list">
-              <li class="menu-list-item"><a href=#0 class="link-header">главная</a></li>
-              <li class="menu-list-item"><a href=#0 class="link-header">посты</a></li>
-              <li class="menu-list-item"><a href=#0 class="link-header">статьи</a></li>
-              <li class="menu-list-item"><a href=#0 class="link-header">теги</a></li>
-              <li class="menu-list-item"><a href=#0 class="link-header">темы</a></li>
-              <li class="menu-list-item"><a href=#0 class="link-header">контакты</a></li>
-            </ul>
-          </nav>
-          <div class="burger">
-            <nav class="menu_burger">
-                <span></span>
-            </nav>
-          </div>
+                <li class="menu-list-item"><a href=#about class="link-header-1">about</a></li>
+                <li class="menu-list-item"><a href=#help class="link-header">help</a></li>
+                <li class="menu-list-item"><a href="#Features" class="link-header">feature</a></li>
+              </ul>
+        </nav>   
+    </header>
+    <main class="content">
+        <article class="data_storage">
+            <div class="text_data_storage"> 
+                <h2 class="name_data_storage" >save your data storage here.</h2>
+                <p class="description_data_storage">Data Warehouse is a data storage area that has been tested for security, so you can store your data here safely but not be afraid of being stolen by others.</p>
+                <div class="button_data_storage">
+                    <a href="#Features" class="button">learn more</a>
+                </div>
+            </div>
+            <img src="images/image1 1.png" alt="people are preparing a report on data storage" class="img_data_storage">
+        </article>
+        <article class="data_storage_bank" id="about">
+            <img src="images/image2.png" alt="img data storage bank" class="img_data_storage_bank">
+            <div class="descrption_storage_bank" >
+                <h2 class="name_data_storage_bank" >we are a high-level data storage bank</h2>
+                <p class="description_data_storage_bank">The place to store various data that you can access at any time through the internet  and where you can carry it. This very flexible storage area has a high level of security. To enter into your own data you must enter the password that you created when you registered in this Data Warehouse.</p>
+            </div>           
+        </article>
+    </main>
+    <aside class="additional_content">
+        <h2 class="name_additional_content" id="Features">Features</h2>
+        <p class="description_additional_content">Some of the features and advantages that we provide for those of you who store data in this Data Warehouse.</p>
+        <div class="block_of_functions">
+            <article class="function search">
+                <img src="images/image3 1.png" alt="The man with the magnifying glass at the folder" class="img_function">
+                <img src="images/Ellipse 61.png" alt="" class="ellipse_1">
+                <img src="images/Vector 56.png" alt="" class="vector_1">
+                <div class="text_function">
+                    <h3 class="name_function">search data</h3>
+                    <p class="description_function">Don’t worry if your data is very large, the Data Warehoue provides a search engine, which is useful for making it easier to find data effectively saving time.</p>
+                    <div class="button_name_function">
+                        <a href="#0" class="link">learn more</a>
+                        <a href="#0" class="arrow"><img src="images/Group 56.png" alt="arrow" class="img_arrow"></a>
+                    </div>
+                </div>
+            </article>
+            <article class="function access">
+                <img src="images/image4.png" alt="A girl in the lotus position with a laptop in her hands" class="img_function">
+                <img src="images/Vector 56.png" alt="" class="vector_2">
+                <div class="text_function">
+                    <h3 class="name_function">24 hours access</h3>
+                    <p class="description_function">Access is given 24 hours a full morning to night and meet again in the morning, giving you comfort when you need data when urgent.</p>
+                    <div class="button_name_function">
+                        <a href="#0" class="link">learn more</a>
+                        <a href="#0" class="arrow"><img src="images/Group 56.png" alt="arrow"></a>
+                    </div>
+                </div>
+            </article>
+            <article class="function print">
+                <img src="images/image5 1.png" alt="Printer" class="img_function">
+                <img src="images/Ellipse 61.png" alt="" class="ellipse_3">
+                <div class="text_function">
+                    <h3 class="name_function">print out</h3>
+                    <p class="description_function">Print out service gives you convenience if someday you need print data, just edit it all and just print it.</p>
+                    <div class="button_name_function">
+                        <a href="#0" class="link">learn more</a>
+                        <a href="#0" class="arrow"><img src="images/Group 56.png" alt="arrow"></a>
+                    </div>
+                </div>
+            </article>
+            <article class="function code">
+                <img src="images/image6 1.png" alt="A girl with a big key in her hands stands at a large castle" class="img_function">
+                <img src="images/Ellipse 61.png" alt="" class="ellipse_4">
+                <img src="images/Vector 56.png" alt="" class="vector_4">
+                <div class="text_function">
+                    <h3 class="name_function">security code</h3>
+                    <p class="description_function">Data Security is one of our best facilities. Allows for your files to be safer. The file can be secured with a code or password that you created, so only you can open the file.</p>
+                    <div class="button_name_function">
+                        <a href="#0" class="link">learn more</a>
+                        <a href="#0" class="arrow"><img src="images/Group 56.png" alt="arrow"></a>
+                    </div>
+                </div>
+            </article>
         </div>
-        <div class="name-header">
-            <h1 class="name-head">блог о творчестве, спорте, и образе жизни</h1>
-        </div>
-    </header>  
-    <div class="central-panel">
-        <section class="trend">
-            <h2 class="name-block">сейчас в тренде</h2>
-            <div class="trend-blocks">
-                <article class="trend-block trend1">
-                    <div class="trend-description">
-                        <ul class="name-themes">
-                            <li class="blog-link"><a href=#0 class="link-themes">lifestyle</a></li>
-                            <li class="blog-link"><a href=#0 class="link-themes">interoir</a></li>
-                        </ul>
-                        <h3 class="name-trend-block">сейчас в тренде: сад на подоконнике </h3>
-                    </div>  
-                </article>
-                <article class="trend-block trend2">
-                    <div class="trend-description">
-                        <ul class="name-themes">
-                            <li class="blog-link"><a href=#0 class="link-themes">food</a></li>
-                        </ul>
-                        <h3 class="name-trend-block">сыры на красивых картинках из интернета: какие они на вкус?</h3>
+        <section class="testimonials">
+            <h3 class="name_testimonials">testimonials</h3>
+            <div class="contact_card">
+                <article class="contact">
+                    <img src="images/Ellipse 76.png" alt="Foto people" class="foto">
+                    <div class="option_contact">
+                        <h4 class="name_people">john fang</h4>
+                        <a href="https://www.figma.com/file/VsA7lowyHmr0WUZAQ9X3n8/Ratio-courses?node-id=413%3A3" class="link_contact">wordfaang.com</a>
+                        <p class="description_recommendation">Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.</p>
                     </div>
                 </article>
-                <article class="trend-block trend3">
-                    <div class="trend-description">
-                        <ul class="name-themes">
-                            <li class="blog-link"><a href=#0 class="link-themes">lifestyle</a></li>
-                            <li class="blog-link"><a href=#0 class="link-themes">travel</a></li>
-                        </ul>
-                        <h3 class="name-trend-block">собираемся в первый поход в горы</h3>
+                <article class="contact">
+                    <img src="images/Ellipse 761.png" alt="Foto people" class="foto">
+                    <div class="option_contact">
+                        <h4 class="name_people">jeny doe</h4>
+                        <a href="https://www.figma.com/file/VsA7lowyHmr0WUZAQ9X3n8/Ratio-courses?node-id=413%3A3" class="link_contact">UX Engineer</a>
+                        <p class="description_recommendation">Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor</p>
                     </div>
                 </article>
-                <article class="trend-block trend4">
-                    <div class="trend-description">
-                        <ul class="name-themes">
-                            <li class="blog-link"><a href=#0 class="link-themes">food</a></li>
-                            <li class="blog-link"><a href=#0 class="link-themes">health</a></li>
-                        </ul>
-                        <h3 class="name-trend-block">сейчас в тренде: сколько витамина с в лимонах</h3>
+                <article class="contact">
+                    <img src="images/Ellipse 762.png" alt="Foto people" class="foto">
+                    <div class="option_contact">
+                        <h4 class="name_people">william</h4>
+                        <a href="https://www.figma.com/file/VsA7lowyHmr0WUZAQ9X3n8/Ratio-courses?node-id=413%3A3" class="link_contact">wordfaang.com</a>
+                        <p class="description_recommendation">Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor</p>
                     </div>
                 </article>
             </div>
+            <div class="slide">
+                <img src="svg/slide.svg" alt="points" class="left_slide">
+                <div class="arrows">
+                    <img src="svg/Group 57.svg" alt="points" class="right1_slide">
+                    <img src="svg/Group 56.svg" alt="points" class="right1_slide">
+                </div>
+            </div>
         </section>
-        <div class="content">
-            <main class="news">
-                <article class="news-block">
-                    <img src="images/last-post1.jpg" alt="В лучах яркого солнца человек идет по краю моря,на заднем фоне скалы" class="news-img">
-                    <div class="description">
-                        <ul class="name-themes">
-                            <li class="blog-link"><a href=#0 class="link-themes">travel</a></li>
-                            <li class="blog-link"><a href=#0 class="link-themes">health</a></li>
-                        </ul>
-                        <h2><a href=#0 class="link-news">10 мест, ради которых стоит проснуться на рассвете</a></h2>
-                        <div class="option">
-                            <time datetime="2019-06-10" class="date">10 июня 2019</time>
-                            <span class="author">Неизвестный автор</span>
-                        </div>  
-                        <p class="description-themes">Итак, вы в Питере. Раннее утро. Лед с рек и каналов уже ушел, запущены фонтаны города... Музее еща закрыты. Что посмотреть?</p>
-                    </div>
-                </article>
-                <article class="news-block">
-                    <img src="images/last-post2.jpg" alt="На песчаном берегу девушка занимается йогой." class="news-img">
-                    <div class="description">
-                        <ul class="name-themes">
-                            <li class="blog-link"><a href=#0 class="link-themes">health</a></li>
-                            <li class="blog-link"><a href=#0 class="link-themes">lifestyle</a></li>
-                        </ul>
-                        <h2><a href=#0 class="link-news">йога для начинающих в домашних условиях</a></h2>
-                        <div class="option"> 
-                            <time datetime="2019-06-10" class="date">10 июня 2019</time>
-                            <span class="author">Неизвестный автор</span>
-                        </div>
-                        <p class="description-themes">Расскажем, какие упражнения нобходимо выбрать и как сделать коврик для занятий йогой из того, что можно найти в шкафу.</p>
-                    </div>
-                </article>
-                <article class="news-block">
-                    <img src="images/last-post3.jpg" alt="Фото толпы на концерте" class="news-img">
-                    <div class="description">
-                        <ul class="name-themes">
-                            <li class="blog-link"><a href=#0 class="link-themes">music</a></li>
-                        </ul>
-                        <h2><a href=#0 class="link-news">лучшие музыкальные фестивали этого лета</a></h2>
-                        <div class="option">
-                            <time datetime="2019-06-10" class="date">10 июня 2019</time>
-                            <span class="author">Неизвестный автор</span>
-                        </div>
-                        <p class="description-themes">Лето на носу, а с ним и музыкальные фестивали. На каком же из них вы разобьёте свою палатку?</p>
-                        <p class="description-themes">Мы составили список лучших летних фестивалей по всему миру.</p>
-                    </div>
-                </article>
-                <article class="news-block">
-                    <img src="images/last-post4.jpg" alt="Накрытый обеденный стол." class="news-img">
-                    <div class="description">
-                        <ul class="name-themes">
-                            <li class="blog-link"><a href=#0 class="link-themes">lifestyle</a></li>
-                            <li class="blog-link"><a href=#0 class="link-themes">food</a></li>
-                        </ul>
-                        <h2><a href=#0 class="link-news">наукоёмкий подход к кулинарии</a></h2>
-                        <div class="option">      
-                            <time datetime="2019-06-10" class="date">10 июня 2019</time>
-                            <span class="author">Неизвестный автор</span>
-                        </div>
-                        <p class="description-themes">Узнаем основы проектирования новых пищевых и около-пищевых опытов, вскроем физику, химию и микробиологию еды.</p>
-                    </div>
-                </article>
-                <article class="news-block">
-                    <img src="images/last-post5.jpg" alt="Изображение подушки с принтом" class="news-img">
-                    <div class="description">
-                        <ul class="name-themes">
-                            <li class="blog-link"><a href=#0 class="link-themes">lifestyle</a></li>
-                            <li class="blog-link"><a href=#0 class="link-themes">interior</a></li>
-                            <li class="blog-link"><a href=#0 class="link-themes">art</a></li>
-                        </ul>
-                        <h2><a href=#0 class="link-news">делаем модные принты на подушках для интерьера</a></h2> 
-                        <div class="option">      
-                            <time datetime="2019-06-10" class="date">10 июня 2019</time>
-                            <span class="author">Неизвестный автор</span>
-                        </div>
-                        <p class="description-themes">Подушки для дивана целесообразнее заказать в съемных чехлах на молнии, если потребуется чистка подушек, проще снять чехлы, чем везти подушку в химчистку.</p>
-                    </div>
-                </article>
-            </main>
-            <aside class="side-panel">
-                <section class="litle-news">
-                        <h3 class="heading">новые посты</h3>
-                        <article class="post">
-                            <img src="images/1.jpg" alt="В лучах яркого солнца человек идет по краю моря,на заднем фоне скалы" class="post-img">
-                            <header class="post-themes">
-                                <time datetime="2019-06-14" class="post-date">14 июня 2019</time>
-                                <h4><a href=#0 class="link-post">10 мест, ради которых стоит проснуться</a></h4>
-                            </header> 
-                        </article>
-                        <article class="post">
-                            <img src="images/2.jpg" alt="На песчаном берегу девушка занимается йогой" class="post-img">
-                            <header class="post-themes">
-                                <time datetime="2019-06-14" class="post-date">14 июня 2019</time>
-                                <h4><a href=#0 class="link-post">йога для домашних</a></h4>
-                            </header> 
-                        </article>
-                        <article class="post">
-                            <img src="images/3.jpg" alt="Изображение комнаты" class="post-img">
-                            <header class="post-themes">
-                                <time datetime="2019-06-14" class="post-date">14 июня 2019</time>
-                                <h4><a href=#0 class="link-post">как мы превратили классное место в балкон</a></h4>
-                            </header> 
-                        </article>
-                        <article class="post">
-                            <img src="images/4.jpg" alt="В лучах яркого солнца человек идет по краю моря,на заднем фоне скалы" class="post-img">
-                            <header class="post-themes">
-                                <time datetime="2019-06-14" class="post-date">14 июня 2019</time>
-                                <h4><a href=#0 class="link-post">кулинарный подход к науке</a></h4>
-                            </header> 
-                        </article>
-                        <article class="post">
-                            <img src="images/5.jpg" alt="Фото прически" class="post-img">
-                            <header class="post-themes">
-                                <time datetime="2019-06-14" class="post-date">14 июня 2019</time>
-                                <h4><a href=#0 class="link-post">лучшие прически для распущенных волос</a></h4>
-                            </header> 
-                        </article>
-                </section>
-                <form class="form">
-                    <label>
-                        <span class="definition">Поле поиска</span>
-                        <input type="search" placeholder="Найти...">
-                    </label>
-                    <label>
-                        <span class="definition">Кнопка поиска</span>
-                        <button type="submit"><img src="svg/search.svg" alt="Лупа"></button>
-                    </label>
-                </form>
-                <section class="mail"> 
-                    <h3 class="heading">рассылка</h3>
-                    <form class="mail-group">
-                        <span class="definition">Поле ввода email адреса</span>
-                        <input type="email" placeholder="Ваш email адрес"> 
-                        <span class="definition">Кнопка отправки формы</span>
-                        <button type="submit">подписаться</button>
-                    </form>
-                </section>
-                <section class="tags-group">
-                    <h3 class="heading">теги</h3>
-                    <ul class="tags">
-                        <li class="tag"><a href=#0 class="tag-item">fashion</a></li>
-                        <li class="tag"><a href=#0 class="tag-item">music</a></li>
-                        <li class="tag"><a href=#0 class="tag-item">lifestyle</a></li>
-                        <li class="tag"><a href=#0 class="tag-item">art</a></li>
-                        <li class="tag"><a href=#0 class="tag-item">interior</a></li>
-                        <li class="tag"><a href=#0 class="tag-item">travel</a></li>
-                        <li class="tag"><a href=#0 class="tag-item">food</a></li>
-                        <li class="tag"><a href=#0 class="tag-item">health</a></li>
-                    </ul>
-                </section>
-                <section class="themes-group">
-                    <h3 class="heading">темы</h3>
-                    <ul class="group">
-                        <li class="category">
-                            <a href="#0" class="name-category">Красота</a>
-                            <span class="quantity">12</span>
-                        </li>
-                        <li class="category">
-                            <a href="#0" class="name-category">Здоровье</a>
-                            <span class="quantity">4</span>
-                        </li>
-                        <li class="category">
-                            <a href="#0" class="name-category">Образ жизни</a>
-                            <span class="quantity">145</span>
-                        </li>
-                        <li class="category">
-                            <a href="#0" class="name-category">Музыка</a>
-                            <span class="quantity">28</span>
-                        </li>
-                        <li class="category">
-                            <a href="#0" class="name-category">Спорт</a>
-                            <span class="quantity">62</span>
-                        </li>
-                        <li class="category">
-                            <a href="#0" class="name-category">Йога</a>
-                            <span class="quantity">8</span>
-                        </li>
-                    </ul>
-                </section>
-            </aside>
-        </div>
-        <section class="products">
-            <h2 class="name-block">наши изделия</h2>
-            <div class="product-block">
-                <article class="product-card">
-                    <picture class="img_shop">
-                        <source
-                            media="(max-width: 640px)"
-                            srcset="images/shop-item-mobile1.jpg">
-                        <source
-                            media="(max-width:1200px)"
-                            srcset="images/shop-item-tablet1.jpg">
-                        <img src="images/shop-item-desk1.jpg" alt="Подушка с принтом">
-                    </picture>
-                    <div class="shop-option">
-                        <h3><a href=#0 class="link-news">подушка на диван</a></h3>
-                        <p class="description-product">Набор из двух подушек с модными принтами. Видео о создании <a href="#0" class="link_shop">здесь</a>.</p>
-                        <div class="shop">
-                            <div class="price">
-                                <span class="old_price">1000 P</span>
-                                <span class="new_price">800 P</span>
-                            </div>
-                            <button class="shopping"><a href=#0 class="shopping_name">в магазин</a></button>
-                        </div>
-                    </div>
-                </article>
-                <article class="product-card">
-                    <picture class="img_shop">
-                        <source
-                            media="(max-width: 640px)"
-                            srcset="images/shop-item-mobile2.jpg">
-                        <source
-                            media="(max-width:1200px)"
-                            srcset="images/shop-item-tablet2.jpg">
-                        <img src="images/shop-item-desk2.jpg" alt="Рукодельяная яркая кукла в виде зайчика">
-                    </picture>
-                    <div class="shop-option">
-                        <h3><a href=#0 class="link-news">кукла «зайчик</a></h3>
-                        <p class="description-product">Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена  <a href="#0" class="link_shop">весенняя серия постов</a> в блоге и несколько подкастов.</p>
-                        <div class="shop">
-                            <div class="price">
-                                <span class="new_price">3500 Р</span>
-                            </div>
-                            <button class="shopping"><a href=#0 class="shopping_name">в магазин</a></button>
-                        </div>
-                    </div>
-                </article>
-                <article class="product-card">
-                    <picture class="img_shop">
-                        <source
-                            media="(max-width: 640px)"
-                            srcset="images/shop-item-mobile3.jpg">
-                        <source
-                            media="(max-width:1200px)"
-                            srcset="images/shop-item-tablet3.jpg">
-                        <img src="images/shop-item-desk3.jpg" alt="Деревянная шестиугольная рамка">
-                    </picture>
-                    <div class="shop-option">
-                        <h3><a href=#0 class="link-news">шестиугольная рамка</a></h3>
-                        <p class="description-product">Необычная рамка для украшения дома из видео  <a href="#0" class="link_shop">«Как сделать рамку из подручных средств за 30 минут»</a></p>
-                        <div class="shop">
-                            <div class="price">
-                                <span class="old_price">500 P</span>
-                                <span class="new_price">400 P</span>
-                            </div>
-                            <button class="shopping"><a href=#0 class="shopping_name">в магазин</a></button>
-                        </div>
-                    </div>
-                </article>  
-            </div>  
-        </section>
-    </div>
-    <footer class="footer">
-        <address class="social">
-          <ul class="menu-social">
-           <li class="icon-item">
-            <a href="#0" class="social-icon social-icon__twitter">
-             <span class="definition">Профиль компании в Твиттере</span>
-             </a> 
-           </li>
-           <li class="icon-item">
-            <a href="#0" class="social-icon social-icon__pinterest">
-             <span class="definition">Профиль компании в Пинтерест</span>
-            </a>
-           </li>
-           <li class="icon-item">
-            <a href="#0" class="social-icon social-icon__facebook">
-             <span class="definition">Профиль компании в Фейсбук</span>
-            </a>
-           </li>
-           <li class="icon-item">
-            <a href="#0" class="social-icon social-icon__instagram">
-             <span class="definition">Профиль компании в Инстаграмм</span>
-            </a>
-           </li>
-           <li class="icon-item">
-             <a href="#0" class="social-icon social-icon__tumblr">
-             <span class="definition">Профиль компании в Тамблер</span>
-            </a>
-           </li>
-          </ul>
+    </aside>
+    <footer class="foter">
+        <address class="info_company">
+            <div class="copy" id="help">
+                <div class="company">
+                    <img src="svg/Logo.svg" alt="Logo" class="logo_company">
+                    <span class="name_company">DataWarehouse</span>
+                </div>
+                <div class="address">Warehouse Society, 234 Bahagia Ave Street PRBW 29281</div>
+                <div class="contact_company">info@warehouse.project 1-232-3434 (Main)</div>
+                <div class="copyright">© Datawarehouse™, 2020. All rights reserved. Company Registration Number: 21479524.</div>
+            </div>
+            <div class="social">
+                <h4 class="name_social">Social Media</h4>
+                <ul class="menu-social">
+                    <li class="icon-item">
+                        <a href="https://twitter.com/" class="social-icon social-icon__twitter">
+                        <span class="definition">Профиль компании в Твиттере</span>
+                        </a> 
+                    </li>
+                    <li class="icon-item">
+                        <a href="https://www.facebook.com/" class="social-icon__facebook">
+                        <span class="definition">Профиль компании в Файсбук</span>
+                        </a>
+                    </li>
+                    <li class="icon-item">
+                        <a href="https://www.instagram.com" class="social-icon social-icon__instagram">
+                        <span class="definition">Профиль компании в Инстаграмм</span>
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
         </address>
-        <div class="copyright">
-          <a href="#0" class="copy">Copyright © 2009–2019 City Blog LLC.</a>
-        </div>
     </footer>
 </body>
 </html>
